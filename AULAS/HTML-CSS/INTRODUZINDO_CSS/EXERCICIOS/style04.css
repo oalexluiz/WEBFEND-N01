@@ -1,0 +1,7 @@
+.texto-azul {
+    color: rgb(30, 0, 255);
+    font-size: 5em;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 10px rgb(30, 0, 255);;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%);
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(./img/fundo2804202301.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* font-weight: bold;  */
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container_img {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_pesquisa {
+    /* width: 25%; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+nav {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: 'Inspiration', cursive;
+    font-size: 5em;
+    text-shadow: 2px 2px 2px #000;
+}
+
+video {
+    width: 640px;
+    aspect-ratio: auto 640 / 360;
+    height: 360px;
+}
+
+h2 {
+    font-family: 'Inspiration', cursive;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-shadow: 2px 2px 2px #ffd500;
+}
+
+h3 {
+    font-family: 'Inspiration', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-shadow: 2px 2px 2px #ffd500;
+}

@@ -1,0 +1,27 @@
+bode, html {
+        height: 100%;
+        width: 100%;
+    }
+
+button {
+        height: 100px;
+        width: 500px;
+        margin: 0px auto;
+        display: block;
+        background-color: rgb(85, 252, 2);
+        border: 4px solid black;
+        color: rgb(5, 5, 5);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        border: 3px solid #000;
+        border-radius: 10px 20px 10px 20px;
+        /* transition: 1s */
+        
+}
+
+button:active {
+        background-color: #ff0000;
+        /* transition: 1s; */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+

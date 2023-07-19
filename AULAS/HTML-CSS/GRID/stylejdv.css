@@ -1,0 +1,125 @@
+html, body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 {
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 10px #000;
+    grid-template-areas: 
+    "caixa1 caixa2 caixa3"
+    "caixa4 caixa5 caixa6"
+    "caixa7 caixa8 caixa9"
+}
+
+.box1 {
+    height: 100%;
+    width: 100%;
+    background-color: #02031a;
+    grid-area: caixa1;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box2 {
+    height: 100%;
+    width: 100%;
+    background-color: #021b2b;
+    grid-area: caixa2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box3 {
+    height: 100%;
+    width: 100%;
+    background-color: #b10c43;
+    grid-area: caixa3;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box4 {
+    height: 100%;
+    width: 100%;
+    background-color: #ff0841;
+    grid-area: caixa4;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box5 {
+    height: 100%;
+    width: 100%;
+    background-color: #ebdfcc;
+    grid-area: caixa5;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box6 {
+    height: 100%;
+    width: 100%;
+    background-color: #ff0841;
+    grid-area: caixa6;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box7 {
+    height: 100%;
+    width: 100%;
+    background-color: #b10c43;
+    grid-area: caixa7;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box8 {
+    height: 100%;
+    width: 100%;
+    background-color: #021b2b;
+    grid-area: caixa8;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.box9 {
+    height: 100%;
+    width: 100%;
+    background-color:#02031a;
+    grid-area: caixa9;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+
+
+
+input {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 100px;
+}
+
+
+

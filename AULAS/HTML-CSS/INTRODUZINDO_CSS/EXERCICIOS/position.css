@@ -1,0 +1,36 @@
+body {
+    height: 2000px;
+}
+
+.box_1 {
+    height: 200px;
+    width: 200px;
+    background-color: #0ff;
+}
+.box_2 {
+    height: 200px;
+    width: 200px;
+    background-color: #ff0000;
+    
+}
+.box_3 {
+    height: 200px;
+    width: 200px;
+    background-color: #37ff00;
+    
+}
+
+.box_4 {
+    height: 600px;
+    width: 600px;
+    background-color: #9000ff;
+    position: relative;
+}
+
+.box_5 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffff00;
+    top: 50px;
+    left: 50px;
+}

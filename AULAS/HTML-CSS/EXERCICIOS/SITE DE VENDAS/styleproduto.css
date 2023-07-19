@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%);
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url(./img/fundo28042023.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold; */
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: none;
+    padding: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    /* font-weight: bold; */
+    font-family: 'Inspiration', cursive;
+    font-size: 5em;
+    text-shadow: 2px 2px 2px #000;
+}
+
+h2 {
+    font-family: 'Inspiration', cursive;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-shadow: 2px 2px 2px #ffd500;
+}
+
+h3 {
+    font-family: 'Inspiration', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #ffffff;
+    text-shadow: 2px 2px 2px #ffd500;
+}
+
+.rodape-info {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.telefone {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;}
+
+
+.endereco {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;}
+
+.email {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}

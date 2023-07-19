@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+    
+      }
+
+
+.Pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;   
+}
+
+.box active {
+    background-color: #373737;
+    transition: 0.1s;
+}
+
+.texto1 {
+    font-size: 2em;
+    color: #ff0707;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto2 {
+    font-size: 1em;
+    font-size: large;
+    font-style: italic;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

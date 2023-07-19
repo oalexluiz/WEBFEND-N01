@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(45deg, rgb(255, 0, 0)0%, rgb(141, 15, 15)33%, rgb(155, 52, 52)100%);
+}
+
+.calculadora {
+    background-color: #000;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.display {
+    background-color: aqua;
+    height: 60%;
+    width: 100%;
+   
+}
+
+.botoes {
+    background-color: rgb(64, 119, 119);
+    height: 40%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.primeirovalor {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botaooperacoes {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundovalor {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#valor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 50%;
+    /* width: 80%; */
+    border: none;
+    text-align: center;
+} 
+
+#operacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#valor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 25%;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+
+
+.somatoria, .resetbtn {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.somatoria {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.resetbtn {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+}
+

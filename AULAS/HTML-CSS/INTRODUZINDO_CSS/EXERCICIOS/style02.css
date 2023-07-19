@@ -1,0 +1,8 @@
+#titulo {
+    font-size: 3em;
+}
+
+.galeria {
+    width: 30%;
+    box-shadow: 20px 20px 10px #0008ff;
+}
